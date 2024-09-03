@@ -9,12 +9,11 @@
 
 },
 
-"skinColorSources": {
-
-      "BO_Skin": ["Clouded", "Peach", "Pale", "Greige", "Echo", "Eggshell Blue", "Ink", "Lilac", "Plum", "Quail", "Sandstone", "Welsummer", "Bunting", "Ruffian", "Badawi"]
-    },
-
-"baseColorSources": {
+  "skinColorSources": {
+    "BO_Skin": ["Clouded", "Peach", "Pale", "Greige", "Echo", "Eggshell Blue", "Ink", "Lilac", "Plum", "Quail", "Sandstone", "Welsummer", "Bunting", "Ruffian", "Badawi"]
+  },
+  
+  "baseColorSources": {
 
     "BO_Rare_Base": [
     "Acacia", "Amber", "Anjeer", "Argent", "Ashen", "Buff", "Buttercream", "Cameo", "Cassis", "Champagne", "Chartreux", "Cimmerian", "Cinnabar", "Cocoa", "Dandelion", "Desolate", "Dinar", "Ebony", "Fiery", "Finch", "Flaxen", "Flint", "Frost", "Fulvous", "Goldenrod", "Goridhe", "Honey", "Maroon", "Mocha", "Nacarat", "Noctis", "Platinum", "Powder", "Prune", "Red", "Sapela", "Scallop", "Senegal", "Shedua", "Slate", "Snowpard", "Soot", "Sulphur", "Sunkissed", "Taupe", "Teardrop", "Tusk", "Udara", "Umber"],
@@ -61,9 +60,6 @@
   },
 
   "maneTypeSources": {
-
-  "BO_Mane": ["Royal", "Pariah", "Savage", "Tsavo"]
-
-  },
-
+    "BO_Mane": ["Royal", "Pariah", "Savage", "Tsavo"]
+  }
 }
