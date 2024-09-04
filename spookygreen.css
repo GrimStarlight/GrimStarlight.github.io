@@ -17,7 +17,7 @@ div.box1 {
     padding: 4px;
     border-style: solid;
     border-width: 2px;
-    border-color: #4a4e69; /* Dark, stormy violet tone */
+    border-color: #77a88b; /* Muted green tone */
 }
 
 div.box2 {
@@ -29,7 +29,7 @@ div.box2 {
     padding: 4px;
     border-style: solid;
     border-width: 2px;
-    border-color: #4a4e69; /* Same dark tone */
+    border-color: #77a88b; /* Same muted green */
 }
 
 div.box3 {
@@ -41,7 +41,7 @@ div.box3 {
     padding: 4px;
     border-style: solid;
     border-width: 2px;
-    border-color: #4a4e69;
+    border-color: #77a88b;
 }
 
 div.boxholder {
@@ -50,8 +50,8 @@ div.boxholder {
 }
 
 .box1, .box2, .box3, .feature {
-    background: #1a1a2e!important; /* Deep night sky blue */
-    color: #f5f5f5!important; /* Light contrast for text */
+    background: #0f2e0f!important; /* Deep forest green */
+    color: #e8f5e9!important; /* Light greenish white for contrast */
     font-family: 'Josefin Sans', sans-serif;
 }
 
@@ -63,71 +63,71 @@ body {
     background-position: center; 
     background-attachment:fixed;
     background-repeat: no-repeat;
-    color: #f5f5f5!important;
+    color: #e8f5e9!important; /* Greenish white */
 }
 
-a:link { color: #a8b3da!important; }    
-a:visited { color: #a8b3da!important; }    
-a:hover { color: #d1d4e9!important; }    
-a:active { color: #d1d4e9!important; }  
+a:link { color: #99c1a1!important; }    
+a:visited { color: #99c1a1!important; }    
+a:hover { color: #c5e3c5!important; }    
+a:active { color: #c5e3c5!important; }  
 
 /* Headers */
 h1 {
-    color: #d1d4e9; /* Softer white */
+    color: #c5e3c5; /* Softer white-green */
     text-align:center;
     font-family: 'Shadows Into Light', cursive;
     font-size:40px;
 }
 h2 {
-    color: #f5f5f5!important;
+    color: #e8f5e9!important;
     font-family: 'Shadows Into Light', cursive;
 }
 h3 {
-    color: #f5f5f5!important;
+    color: #e8f5e9!important;
     font-family: 'Shadows Into Light', cursive;
 }
 
 th {
     background:url(https://i.gyazo.com/83a7b4ac3d56b82c6d06f9634f1ab5f9.png)!important;
-    color: #d1d4e9!important;
+    color: #c5e3c5!important;
     background-size: cover;
     background-repeat: no-repeat;
     font-family: 'Josefin Sans', sans-serif;
 }
 
 td {
-    background: #1a1a2e!important;
-    color: #f5f5f5!important;
+    background: #0f2e0f!important; /* Deep green for table cells */
+    color: #e8f5e9!important;
     font-family: 'Josefin Sans', sans-serif;
 }
 
 td.top, td.bottom {
     background:url(https://i.gyazo.com/83a7b4ac3d56b82c6d06f9634f1ab5f9.png)!important;
-    color: #d1d4e9!important;
+    color: #c5e3c5!important;
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 /* Adjust for consistent colors in other parts */
 td.right, .right_odd, .cave-grid, .mound-grid, div.item {
-    background: #1a1a2e!important;
-    color: #f5f5f5!important;
+    background: #0f2e0f!important;
+    color: #e8f5e9!important;
 }
 
 td.right_cub {
-    background: #0d0d26!important; /* Darker blue for cub section */
-    color: #d1d4e9!important;
+    background: #0a2a0a!important; /* Darker green */
+    color: #c5e3c5!important;
 }
 
 div.item-footer, div.item-header {
-    background: #141439!important; /* A little darker to match the dragon's shadow */
-    color: #f5f5f5!important;
+    background: #142814!important; /* Slightly darker green */
+    color: #e8f5e9!important;
 }
 
 /* More elements updated */
 input[type="submit"], input[type="submit"]:hover {
-    background: #1a1a2e;
-    color: #f5f5f5;
+    background: #0f2e0f;
+    color: #e8f5e9;
     text-shadow: none;
     box-shadow: none;
     border: none;
@@ -135,26 +135,26 @@ input[type="submit"], input[type="submit"]:hover {
 
 /* Sidebar */
 .sidebar {
-    background: #0d0d26!important;
-    color: #f5f5f5;
+    background: #142814!important;
+    color: #e8f5e9;
 }
 
 .panel {
-    background: #1a1a2e!important;
-    color: #d1d4e9;
+    background: #0f2e0f!important;
+    color: #c5e3c5;
     box-shadow: none!important;
     border: none!important;
 }
 
 /* Navbar */
 .navbar-default .navbar-nav > li > a {
-    color: #f5f5f5!important;
+    color: #e8f5e9!important;
 }
 .navbar-default .navbar-nav > li > a:hover {
-    background: #131339;
+    background: #0a2a0a;
 }
 
 /* Scrollbar */
 ::-webkit-scrollbar-thumb {
-    background-color: #2d3142; /* Dark blue for a sleek look */
+    background-color: #264d26; /* Dark green for a sleek look */
 }
