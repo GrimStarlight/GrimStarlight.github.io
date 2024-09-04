@@ -55,7 +55,7 @@ div.boxholder {
     font-family: 'Josefin Sans', sans-serif;
 }
 
-div.container.main {
+col-md-9, col-xs-12 {
     background-color: #222222!important;
 }
 
