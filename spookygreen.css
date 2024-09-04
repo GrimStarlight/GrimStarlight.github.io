@@ -92,7 +92,7 @@ h3 {
 }
 
 th {
-    background:url(https://i.gyazo.com/83a7b4ac3d56b82c6d06f9634f1ab5f9.png)!important;
+    background:url()!important;
     color: #c5e3c5!important;
     background-size: cover;
     background-repeat: no-repeat;
@@ -106,7 +106,7 @@ td {
 }
 
 td.top, td.bottom {
-    background:url(https://i.gyazo.com/83a7b4ac3d56b82c6d06f9634f1ab5f9.png)!important;
+    background:url()!important;
     color: #c5e3c5!important;
     background-size: cover;
     background-repeat: no-repeat;
