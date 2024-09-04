@@ -55,9 +55,13 @@ div.boxholder {
     font-family: 'Josefin Sans', sans-serif;
 }
 
+div.container.main {
+    background-color: #222222!important;
+}
+
 /* Body and background */
 body {
-    background:url('https://upload.wikimedia.org/wikipedia/commons/2/28/Stars_02_(MK).jpg');
+    background:url();
     background-color: #000000;
     background-size: 100%;
     background-position: center; 
