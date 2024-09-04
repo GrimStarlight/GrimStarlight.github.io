@@ -67,7 +67,7 @@ alert-success {
 
 /*main body container box*/
 
-col-md-9, col-xs-12 {
+.container.main {
     background-color: #222222 !important;
 }
 
