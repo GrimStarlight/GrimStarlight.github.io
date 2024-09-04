@@ -55,6 +55,16 @@ div.boxholder {
     font-family: 'Josefin Sans', sans-serif;
 }
 
+/*alerts only you will probably see these*/
+
+.alert alert-danger {
+        background-color: #B22222;
+        }
+
+.alert alert-success {
+        background-color: #006400;
+        }
+
 /*main body container box*/
 
 div.container.main {
@@ -63,7 +73,6 @@ div.container.main {
 
 /* Body and background outside container */
 body {
-    background:url();
     background-color: #000000;
     background-size: 100%;
     background-position: center; 
@@ -94,7 +103,6 @@ h3 {
 }
 
 th {
-    background:url()!important;
     color: #c5e3c5!important;
     background-size: cover;
     background-repeat: no-repeat;
@@ -108,15 +116,12 @@ td {
 }
 
 td.top, td.bottom {
-    background:url()!important;
     color: #c5e3c5!important;
     background-size: cover;
     background-repeat: no-repeat;
 }
 
-.alert alert-success {
-        background-color: #B22222 ;
-        }
+
         
 /* Adjust for consistent colors in other parts */
 td.right, .right_odd, .cave-grid, .mound-grid, div.item {
