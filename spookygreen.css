@@ -55,11 +55,13 @@ div.boxholder {
     font-family: 'Josefin Sans', sans-serif;
 }
 
+/*main body container box*/
+
 div.container.main {
     background-color: #222222 !important;
 }
 
-/* Body and background */
+/* Body and background outside container */
 body {
     background:url();
     background-color: #000000;
@@ -112,6 +114,10 @@ td.top, td.bottom {
     background-repeat: no-repeat;
 }
 
+.alert alert-success {
+        background-color: #B22222 ;
+        }
+        
 /* Adjust for consistent colors in other parts */
 td.right, .right_odd, .cave-grid, .mound-grid, div.item {
     background: #0f2e0f!important;
