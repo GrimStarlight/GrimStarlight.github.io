@@ -8,6 +8,6 @@
 
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans:600|Shadows+Into+Light');
 
-.container.main {
+.main {
     background-color: rgba(50, 50, 50, 0) !important;
 }
