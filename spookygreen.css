@@ -1,5 +1,240 @@
-@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:600|Shadows+Into+Light');
+@import url('https://fonts.googleapis.com/css2?family=Oldenburg&display=swap');
 
-.main {
-    background-color: rgba(50, 50, 50, 0)!important;
+/* Body */
+body {
+    background-image: url("https://i.imgur.com/fC9WGuP.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    font-family: "Oldenburg", serif;
+    color: #a3d9a5;
+    /* Spooky light green */
+}
+
+body::-webkit-scrollbar {
+    width: 10px;
+}
+
+body::-webkit-scrollbar-track {
+    background: black;
+}
+
+body::-webkit-scrollbar-thumb {
+    background: #6b8e23;
+    /* Dark olive green */
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.4);
+}
+
+/* Topbar & Navbar */
+.topbar {
+    background: rgba(34, 49, 29, 0.8);
+    /* Dark green */
+    border: 1px solid black;
+    border-top: none;
+    color: #a3d9a5;
+}
+
+.navbar-header a img {
+    content: url('https://static.lioden.com/images/explorenew/all/chillerinoDAY.png');
+    height: 120px;
+    position: relative;
+    left: -45px;
+    top: -10px;
+}
+
+.navbar {
+    background: rgba(34, 49, 29, 0.8);
+    border-bottom: 2px solid black;
+    font-family: Oldenburg;
+}
+
+.navbar li a {
+    color: #a3d9a5 !important;
+}
+
+.navbar li a:hover {
+    background: rgba(107,142,35,0.8) !important;
+    /* Olive green hover */
+}
+
+/* Main Content */
+.container.main {
+    background: rgba(10, 40, 10, 0.5);
+    /* Darker spooky green */
+    border: 1px solid black;
+    box-shadow: none;
+}
+
+.col-md-9 {
+    background: none;
+}
+
+/* Breadcrumb */
+.breadcrumb {
+    background: rgba(69, 90, 42, 0.8);
+    /* Muted spooky green */
+}
+
+.breadcrumb .active {
+    color: #a3d9a5;
+}
+
+/* Alerts */
+.alert {
+    background: rgba(47, 79, 47, 0.8);
+    border: 1px solid black;
+    color: #a3d9a5;
+}
+.alert-warning, .alert-danger {
+    background: rgba(85,107,47,0.8);
+    /* Dark olive for warnings */
+}
+
+/* Features & Sidebar */
+.feature, div.left {
+    background: rgba(34, 49, 29, 0.8) !important;
+    border: 1px solid black !important;
+}
+
+.panel {
+    background: rgba(69, 90, 42, 0.8) !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+/* Tables */
+.table {
+    background: rgba(69, 90, 42, 0.8);
+    border: 1px solid black;
+    border-collapse: separate;
+}
+
+.top, .bottom, th, .table .left {
+    background: rgba(34, 49, 29, 0.8) !important;
+    color: #a3d9a5 !important;
+}
+
+.inner-table .left {
+    background: rgba(47, 79, 47, 0.8) !important;
+}
+
+.inner-table .right {
+    background: rgba(69, 90, 42, 0.8);
+}
+
+.right_odd {
+    background: rgba(85,107,47,0.8) !important;
+}
+
+.right_cub {
+    background: rgba(107,142,35,0.8) !important;
+}
+
+.cave-grid, .mound-grid {
+    background: rgba(34, 49, 29, 0.8);
+    border: 1px solid black;
+}
+
+/* Headers */
+h1 {
+    color: #a3d9a5;
+    font-size: 48px;
+    font-family: Julius Sans One;
+}
+
+h3 {
+    color: #a3d9a5 !important;
+    font-size: 24px !important;
+    font-family: Julius Sans One;
+}
+
+/* Progress Bar & Chat */
+.progress {
+    background: rgba(10, 40, 10, 0.4);
+}
+
+.progress-div {
+    color: #a3d9a5;
+}
+
+.progress-bar {
+    background: rgba(85,107,47,0.8);
+}
+
+.chat_light {
+    background: rgba(69, 90, 42, 0.8);
+    text-align: center;
+    border: 1px solid black;
+    border-bottom: none;
+}
+
+.chat_dark {
+    background: rgba(34, 49, 29, 0.8);
+}
+
+.chatContainer::-webkit-scrollbar,
+textarea::-webkit-scrollbar {
+    width: 10px;
+}
+
+.chatContainer::-webkit-scrollbar-track,
+textarea::-webkit-scrollbar-track {
+    background: black;
+}
+
+.chatContainer::-webkit-scrollbar-thumb,
+textarea::-webkit-scrollbar-thumb {
+    background: #6b8e23;
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.4);
+}
+
+/* Inputs, Buttons, Sliders */
+input, select, textarea {
+    background: rgba(69, 90, 42, 0.8) !important;
+    border: 1px solid black !important;
+    box-shadow: none !important;
+    color: #a3d9a5 !important;
+    text-shadow: none !important;
+}
+input[type=button]:hover,
+input[type=submit]:hover {
+    background: rgba(85,107,47,0.8) !important;
+}
+
+.item {
+    background: rgba(69, 90, 42, 0.8);
+    border: 1px solid black;
+}
+
+.item-header {
+    background: rgba(34, 49, 29, 0.8);
+    color: #a3d9a5;
+}
+
+.slider {
+    background: black !important;
+}
+
+input:checked + .slider {
+    background: #6b8e23 !important;
+}
+
+/* Footer */
+.footer {
+    color: #a3d9a5 !important;
+}
+
+.center.xlarge a {
+    color:white!important;    
+}
+.cave-grid a {
+    color: rgba(255, 255, 255, 1)!important;
+}
+
+form .col-md-3 .left a {
+    color:white!important;
+}
+
+#clans .right a {
+color: white;    
 }
