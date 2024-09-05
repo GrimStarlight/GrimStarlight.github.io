@@ -85,6 +85,15 @@ body::-webkit-scrollbar-thumb {
     border: 1px solid black;
     color: #a3d9a5;
 }
+
+
+.alert-success a {
+    color:white;
+}
+
+.alert-warning, .alert-danger a {
+    color:white;
+}
 .alert-warning, .alert-danger {
     background: rgba(85,107,47,0.8);
     /* Dark olive for warnings */
@@ -223,18 +232,18 @@ input:checked + .slider {
 .footer {
     color: #a3d9a5 !important;
 }
-
-.center.xlarge a {
-    color:white!important;    
+form .col-md-3 .left {
+    color:white;
 }
-.cave-grid a {
-    color: rgba(255, 255, 255, 1)!important;
-}
-
-form .col-md-3 .left a {
-    color:white!important;
+#allies .small a {
+    color:white;
 }
 
 #clans .right a {
 color: white;    
 }
+
+.cave-grid {
+    color:white;
+}
+
