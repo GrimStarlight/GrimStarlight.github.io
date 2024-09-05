@@ -68,7 +68,7 @@ alert-success {
 /*main body container box*/
 
 .container.main {
-    background-color: #222222 !important;
+    background-color: rgba(50, 50, 50, 0) !important;
 }
 
 /* Body and background outside container */
