@@ -342,6 +342,22 @@
         ]
     },
     "eyeColorSources": {
+        "BO_NCL_Exclusive_Eyes": [
+            "Albinoid",
+            "Celadon",
+            "Ceramic",
+            "Chamotte",
+            "Coconut",
+            "Cordovan",
+            "Glass",
+            "Glaze",
+            "Mosaic",
+            "Moss",
+            "Smalti",
+            "Slate",
+            "Terracotta",
+            "Tessera"
+        ],
         "BO_Event_Eyes": [
             "Hetero Ice & Blue",
             "Hetero Intense Gold & Earth",
